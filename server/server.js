@@ -30,6 +30,6 @@ app.use((req, res) => {
 });
 
 // server listening!
-app.listen(1337, () => {
+app.listen(process.env.PORT || 1337, () => {
   console.log('Server listening on port', 1337);
 });
