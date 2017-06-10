@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import { Flex, Box } from 'reflexbox';
-import {Sticky, StickyContainer} from 'react-sticky';
 import Terminal from './Terminal';
 import Icon from 'react-geomicons';
 import { ButtonCircle, ButtonOutline, Close} from 'rebass';
