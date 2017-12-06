@@ -33,7 +33,7 @@ class Terminal extends Component {
             this.props.setTyper(["linkedin.com/in/nikkijacknyc"]);
             break;
          case "twitter":
-            this.props.setTyper(["twitter.com/daNukki"]);
+            this.props.setTyper(["twitter.com/code_in_heels"]);
             break;
          case "email":
             this.props.setTyper(["nikkijack@protonmail.com"]);
@@ -87,8 +87,8 @@ class Terminal extends Component {
     const historyContent = history.map( (line, i) => {
       if(line.props){
         switch(line.props.children) {
-          case 'twitter.com/daNukki':
-            return (<p key={i}> <a target='_blank' href="https://twitter.com/daNukki">{line}</a> </p>);
+          case 'twitter.com/code_in_heels':
+            return (<p key={i}> <a target='_blank' href="https://twitter.com/code_in_heels">{line}</a> </p>);
             break;
           case 'linkedin.com/in/nikkijacknyc':
             return (<p key={i}> <a target='_blank' href="https://www.linkedin.com/in/nikkijacknyc/">{line}</a> </p>);

@@ -33,7 +33,7 @@ export default class Social extends Component {
                           style={{ height: 44, width: 44}}/>
             </Box>
             <Box  px={2}  >
-              <SocialIcon url="https://twitter.com/daNukki"
+              <SocialIcon url="https://twitter.com/code_in_heels"
                           network="twitter"
                           color="#394c65"
                           style={{ height: 44, width: 44}} />
